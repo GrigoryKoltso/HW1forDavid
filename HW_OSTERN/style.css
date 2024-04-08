@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    min-width: 1600px;
+    min-height: 1400px;
+    background: var(--Background, #A7D7C5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    /* justify-content:space-between; */
+    align-items:center;
+    width: 698px;
+    height: 900px;
+    border-radius: 49.09px;
+    background: var(--Form-Bg, #F6FBF9);
+}
+
+.form > * {
+    margin-top: 20px;
+}
+
+p {
+    display: flex;
+    color: var(--Paragraph, #32403B);
+    font-family: Karla;
+    font-size: 23.01px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.5px
+}
+
+.p-SignIn {
+    display: flex;
+    position: absolute;
+    left: 185;
+    bottom: 28px;
+}
+
+.p-number {
+    display: flex;
+    align-self: start;
+    margin-left: 60px;
+}
+
+.p-account {
+    display: flex;
+    align-self: start;
+    margin-left: 60px;
+}
+
+h1 {
+    flex-shrink: 0;
+    color: var(--Heading, #212B27);
+    text-align: center;
+    font-family: Karla;
+    font-size: 55.226px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71.794px;
+}
+
+h2 {
+    color: var(--Paragraph, #32403B);
+    text-align: center;
+    font-family: Karla;
+    font-size: 23.011px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.914px;
+}
+
+.emailInput {
+    width: 575.275px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1.534px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+}
+
+.passwordInput {
+    width: 575.275px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1.534px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+}
+
+.username {
+    display: flex;
+    justify-content: space-between;
+    width: 575px;
+    height: 60px;
+}
+
+.nameInput {
+    flex-grow: 1;
+    border-radius: 15px;
+    border: 1.534px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+}
+
+.surname {
+    margin-right: 10px;
+}
+
+.lastname {
+    margin-left: 10px;
+}
+
+
+p {
+    margin: 5px;
+    color: var(--Paragraph, #32403B);
+    text-align: center;
+    font-family: Karla;
+    font-size: 23.01px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.5px;
+}
+
+.numberInput {
+    border-radius: 15.341px;
+    border: 1.534px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+}
+
+.phoneNumberInput {
+    display: flex;
+    justify-content: space-between;
+    width: 575px;
+    height: 60px;
+}
+
+.countryCode {
+    margin-right: 10px;
+    flex-grow: 1;
+}
+
+.phonenumber {
+    margin-left: 10px;
+    flex-grow: 40;
+}
+
+.accounts-Selectors {
+    display: flex;
+    justify-content: space-between;
+    width: 575px;
+    height: 60px;
+
+}
+
+.selector-container {
+    gap: 20px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accountSelector {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    fill: #FFF;
+    stroke-width: 1px;
+    stroke: rgba(0, 0, 0, 0.35);
+}
+
+.bigGreenButton {
+    position: absolute;
+    left:150px;
+    bottom: 80px;
+    width: 391.187px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 23.011px;
+    background: #84C7AE;
+    color: #FFF;
+    text-align: center;
+    font-family: Karla;
+    font-size: 33.749px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43.874px;
+}
